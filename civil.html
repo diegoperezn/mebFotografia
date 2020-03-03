@@ -506,7 +506,10 @@
 
   <script>
     $(document).ready(function () {
-      $('#lightgallery').lightGallery();
+      $('#lightgallery').lightGallery({
+        download: false,
+        preload: 2
+      });
     });
   </script>
 
